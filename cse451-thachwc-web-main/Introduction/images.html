@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Images</title>
+<style>
+img {
+	display: block;
+	width: 300px;
+}
+.col {
+	float: left;
+	padding: 5px;
+	display: inline-block;
+}
+.row::after {
+	clear: both;
+}
+p {
+	width: 0;
+	min-width: 100%;
+}
+</style>
+	</head>
+	<body>
+		<div class="row">
+			<div class="col">
+				<img src="IMG_0006.jpg" alt="Cake Display">
+				<p>Picture of a cake display that I took at Paris Baguette in Downtown Cincinnati</p>
+			</div>
+			<div class="col">
+				<img src="IMG_9271.jpg" alt="Niagara Falls">
+				<p>Picture of the water around Niagara Falls that my friend took from when he went to Canada</p>
+			</div>
+			<div class="col">
+				<img src="IMG_8366.jpg" alt="Macarons from Chicago">
+				<p>Picture I took of a 6 piece macaron set that I bought from Tous les Jours from when I went to Chicago</p>
+			</div>
+		</div>
+	</body>
+</html>
